@@ -1,0 +1,336 @@
+body {
+  margin: 0px;
+  text-transform: capitalize;
+  background: url(./pictures/3.jpg) center fixed;
+}
+.back {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  background-size: cover;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.cyb {
+  text-shadow: 2px 2px 1px white;
+  font-size: 55px;
+}
+.cyb > span {
+  color: grey;
+  text-shadow: 0px 0px;
+}
+.topicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.topicons p {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+}
+.icons img {
+  padding: 5px;
+}
+.logo > div p {
+  margin: 0px;
+  padding: 0px;
+}
+.logo > div {
+  padding: 20px;
+}
+.icons {
+  margin-left: 300px;
+}
+nav {
+  background-color: azure;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: black;
+  margin-left: 20px;
+}
+
+/* part2 */
+.part2 div > img {
+  height: 200px;
+  width: 400px;
+}
+.part2 {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+}
+.alpha,
+.beta,
+.gama {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dus{
+  font-size: 30px;
+  margin: 50px 0px 0px 0px;
+}
+/* part3 */
+.prds {
+  background: rgb(53, 52, 52);
+}
+.prds > p {
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.cen{
+  text-align: center;
+  margin: 0px;
+}
+.cens{
+  margin-left: 70px;
+  margin-top: 20px;
+  background-color: rgb(242, 239, 239);
+  color:rgb(13, 13, 13);
+}
+.cent{
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.aa,
+.bb,
+.cc {
+  width: 30%;
+  background-color: rgb(173, 174, 174);
+  margin: 5px;
+  padding: 10px;
+}
+.oo {
+  width: 100%;
+}
+.ya{
+  background-color: grey;
+  padding: 5px 50px;
+  color: white;
+  margin-left: 170px;
+}
+/* footer */
+footer {
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  margin: 0px;
+  opacity: 1;
+}
+li:hover {
+  opacity: 0.7;
+}
+li {
+  padding: 10px;
+}
+li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+footer > p {
+  text-align: center;
+}
+
+/* about us */
+.about {
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+.ab {
+  background-color: rgb(41, 37, 37);
+  text-align: center;
+  font-size: 30px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.pa {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+/* gallery */
+
+.gal,
+.prd,.form {
+  background: rgba(0, 0, 0, 0.8);
+  width: 75%;
+  margin-top: 10px;
+}
+.photos {
+  display: flex;
+  gap: 3%;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.gal > p {
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  margin-top: 0px;
+}
+.photos > img {
+  width: 30.33%;
+  height: 200px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 3px rgb(246, 245, 245);
+  margin-bottom: 3%;
+}
+.join {
+  display: flex;
+}
+.side {
+  width: 25%;
+}
+.items {
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+.items,
+.vn {
+  margin: 10px 0px 0px 30px;
+}
+.pp {
+  background-color: aliceblue;
+  color: black;
+  padding: 15px;
+  font-size: 20px;
+}
+.pp:hover {
+  color: blue;
+}
+.photos > img:hover {
+  color: black;
+  opacity: 0.8;
+}
+.items > p {
+  font-size: 20px;
+}
+.vn {
+  background-color: white;
+  border-radius: 10px;
+}
+.vn > p {
+  margin: 0px;
+  padding: 0px;
+  background-color: gray;
+  color: gray;
+}
+.vns {
+  width: 200px;
+}
+/* products page */
+.cam {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  border: 5px solid rgb(126, 125, 125);
+  padding-bottom: 20px;
+}
+.ok {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prd > p {
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  margin-top: 0px;
+}
+
+.cam > img {
+  width: 100px;
+  margin-top: 10px;
+}
+.cam>button{
+  margin-top: 10px;
+  box-shadow: 4px 3px black;
+}
+.sap {
+  background-color: rgb(59, 59, 232);
+  width: 100%;
+}
+.sap>p{
+  color: white;
+  text-align: center;
+}
+/* contact us page */
+.contact{
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  margin-top: 0px;
+}
+.con{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+form{
+  margin: 20px;
+}
+label{
+  color: white;
+}
+input{
+  width: 396px;
+}
+input,textarea{
+  margin-left: 230px;
+}
+.submit{
+  background-color:rgb(50, 50, 244);
+  width: fit-content;
+  padding: 6px 30px;
+  border: 1px solid white;
+  color: white;
+  margin-left: 600px;
+}

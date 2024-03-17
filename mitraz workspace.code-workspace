@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "D:/python practise"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_web"
+	}
+}
